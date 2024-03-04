@@ -1,0 +1,51 @@
+#weather-card {
+    border: 3px solid #e1e5f8;
+    width: 370px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 25px;
+    background: #bbc4eb;
+    margin-top: 20px;
+}
+
+.weather-title {
+    color: black;
+    font-weight: 500;
+    font-size: 27px;
+
+}
+
+.search-box {
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #6E45E1, #89D4CF);
+    border-radius: 25px;
+    margin-top: 9px;
+}
+
+#weather-output {
+
+    background-image: linear-gradient(to bottom right, #6E45E1, #89D4CF) !important;
+    border-radius: 25px !important;
+}
+
+.weather-placeholder {
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.weather-text {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.search-button {
+    background: #2218af;
+    color: white;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    border: 1px solid #8282c3;
+}
