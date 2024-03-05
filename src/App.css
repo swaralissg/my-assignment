@@ -38,13 +38,13 @@
 }
 
 #settings-nav-item:hover{
-  color: purple !important;
+  color: darkblue !important;
 }
 
 
 
 #nav-link:hover{
-  color : purple !important;
+  color : darkblue !important;
 }
 
 .bg-dark {
@@ -72,6 +72,15 @@ justify-content: center;
 
 }
 
+button:hover{
+  background: darkblue !important;
+  color: white;
+}
+
+#view-button:hover{
+  background: darkblue !important;
+  color: white;
+}
 
 
 #dashboard-content{

@@ -1,5 +1,7 @@
 import { useState } from "react"
 import './WeatherComponent.css'
+import weather1 from '../assets/weather1.gif'
+
 
 const api = {
     key: "9a72b5f3fda7f08624258823199d5da0",
@@ -28,7 +30,7 @@ function WeatherComponent() {
             <header className="hi">
                 {/* HEADER  */}
                 <div id="weather-card" className="card">
-                    <p className="weather-title">Weather App</p>
+                    <p className="weather-title">Weather App<img style={{height: '36px', width: '72px'}} alt="cloud-icon" src={weather1}/></p>
                     {/* Search Box - Input + Button  */}
                     <div className="search-box">
                         <input
@@ -42,16 +44,17 @@ function WeatherComponent() {
                     {/* If weather is not undefined display results from API */}
                     {typeof weather.main !== "undefined" ? (
                         <div id="weather-output" style={{
-                            'border-radius': '10px', 'margin-top': '35px', 'background-image':
+                            'border-radius': '10px', 'margin-top': '19px', 'background-image':
                                 'linear-gradient(to bottom right, #6E45E1, #89D4CF', 'border': '1px solid #bbc4eb'
                         }} className="card">
                             {/* Location  */}
-                            <p style={{ 'margin-top': '5px' }}><span className="weather-text">City Name :</span> {weather.name}</p>
+                            <p className="margin" style={{ 'margin-top': '5px' }}><span className="weather-text">City Name :</span> {weather.name}</p>
                             {/* Temperature Celsius  */}
-                            <p><span className="weather-text">Temperature :</span>  {weather.main.temp}°C</p>
+                            <p className="margin"><span className="weather-text">Temperature :</span>  {weather.main.temp}°C</p>
                             {/* Condition (Sunny ) */}
-                            <p> <span className="weather-text">Condition :</span> {weather.weather[0].main}</p>
-                            <p> <span className="weather-text">Description :</span> ({weather.weather[0].description})</p>
+                            <br/>
+                            <p className="margin"> <span className="weather-text">Condition :</span> {weather.weather[0].main}</p>
+                            <p className="margin"> <span className="weather-text">Description :</span> ({weather.weather[0].description})</p>
                         </div>
                     ) : (
                         ""

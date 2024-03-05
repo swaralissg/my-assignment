@@ -2,13 +2,17 @@
 
     background-color: #84a7fc;
     padding: 5px;
-    height: 276px;
+    height: 259px;
 
+}
+.card-body{
+    padding: 7px !important;
 }
 
 .main-container {
     background-color: #84a7fc;
-    padding: 4x !important;
+    
+    border: 2px solid lightsteelblue;
 }
 
 #scrolling {
@@ -18,7 +22,11 @@
 #view-button {
     background: #2218af;
     color: white;
-
+    border-radius: 20px;
+   
+    padding-top: 3px;
+    padding-bottom: 3px;
+  
     border: 1px solid #8282c3;
 }
 
@@ -57,10 +65,9 @@
     #second-col {
         margin-top: 35px;
     }
-    #second-container {
+    .main-container{
         margin-right: 64px !important;
         margin-top: 20px !important;
-    
     }
-   
+  
 }

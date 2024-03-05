@@ -2,9 +2,14 @@
     border: 3px solid #e1e5f8;
     width: 370px;
     border-radius: 25px 25px 25px 25px;
-    padding: 25px;
+    padding: 13px;
     background: #bbc4eb;
+    max-height: 330px;
     margin-top: 20px;
+}
+
+.margin{
+    margin-bottom: 7px;
 }
 
 .weather-title {

@@ -27,7 +27,7 @@ function UserProfilesComponent() {
             name: "Natasha Black",
             email: "natasha@gmail.com",
             image: (profile_icon2),
-            city: "Toronto",
+            city: "Ottawa",
 
         },
         {
@@ -35,7 +35,7 @@ function UserProfilesComponent() {
             name: "Sherin Lancy",
             email: "sherin@gmail.com",
             image: (profile_icon3),
-            city: "Toronto",
+            city: "Vancouver",
 
         },
         {
@@ -59,7 +59,7 @@ function UserProfilesComponent() {
             name: "Sameer Sony",
             email: "sameer@gmail.com",
             image: (profile_icon6),
-            city: "Toronto",
+            city: "Regina",
 
         },
 
@@ -118,7 +118,7 @@ function UserProfilesComponent() {
                         return (
                             <>
                                 {toggled === userid ? (
-                                    <div class="card" style={{ width: "370px", height: "330px", 'border': '1px solid #2218af' }}>
+                                    <div class="card" style={{ width: "370px", height: "315px", 'border': '1px solid #2218af' }}>
                                         <img class="card-img-top" src={image} alt="Card image" style={{ width: "100%", height: "200px" }} />
                                         <div class="card-body">
                                             <h4 class="card-title">{name}</h4>

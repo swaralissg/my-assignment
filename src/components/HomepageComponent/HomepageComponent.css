@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    background: rgb(214 217 246);
+    background: #c9d6f4;
     border-bottom: 1px solid lightgrey;
     height: 52px;
 }
@@ -67,7 +67,7 @@
 
 
 #nav-link:hover {
-    color: purple !important;
+    color: darkblue !important;
 }
 
 .bg-dark {
